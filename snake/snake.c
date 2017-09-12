@@ -1,5 +1,5 @@
 /*John Henry
-When porting this game to other platforms, this code does not need to be modified.
+When porting this game to other platforms, the code in this file does not need to be modified.
 */
 #include "data.h"
 #include "LIB.h"
