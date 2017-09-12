@@ -1,4 +1,6 @@
-/*John Henry*/
+/*John Henry
+When porting this game to other platforms, this code does not need to be modified.
+*/
 #include "data.h"
 #include "LIB.h"
 struct point MOVE_DIR(struct point p, enum dir dir){
