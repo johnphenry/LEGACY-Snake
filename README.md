@@ -1,7 +1,7 @@
 # Snake
 Highly portable C version of the game Snake. Separates the dependent code from the independent code, maximises portability to other platforms.
 When porting this game to other platforms, you need only change the code in LIB.c. Every other file is portable.
-Note that headers for libraries such as SDL2 are not incuded in other headers, only here in this file.
+Note that headers for libraries such as SDL2 are not incuded in other headers, only locally inside the c file.
 This speeds up compilation times by a lot because headers are only included where they are needed.
 The actual implementation of the functions in this file does not matter to any of the other files in the game.
 This forces that only the dependent code can be used here, and nowhere else.
