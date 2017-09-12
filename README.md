@@ -7,5 +7,5 @@ The actual implementation of the functions in this file does not matter to any o
 This forces that only the dependent code can be used here, and nowhere else.
 I consider even the usage of that standard library to be dependent code.
 For instance, when using libGCCVB, a virtual boy compiler, the standard library actually has not been implemented for that platform!
-#OSX Build
+# OSX Build
 In addition, an OSX build in a .app file has been included in this respository. Because SDL has been compiled statically, it should run on your machine without any linking issues.
