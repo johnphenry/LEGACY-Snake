@@ -1,3 +1,7 @@
+#NOTICE: LEGACY PROJECT
+This project is considered "legacy code". The code was written a long time ago and may be subject to code rot.
+Disclaimer: The coding style used in this project most likely does not represent my current coding style or methodologies. A legacy repository is kept so long as it has stars/forks, so that other users can continue to view the code.
+The original readme reads below:
 # Snake
 Highly portable C version of the game Snake. Separates the dependent code from the independent code, maximizes portability to other platforms.
 When porting this game to other platforms, you need only change the code in LIB.c. Every other file is portable.
